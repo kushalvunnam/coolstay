@@ -1,0 +1,28 @@
+# Node dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production builds
+client/dist/
+
+# Local databases and locks
+server/data/
+*.log
+
+# Certificates and keys
+server/certs/
+*.pem
+*.key
+
+# Environment configurations (secrets)
+server/.env
+.env
+
+# Local uploads
+server/uploads/
+uploads/
+
+# Portable Git
+mingit/
+mingit.zip
